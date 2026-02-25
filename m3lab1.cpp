@@ -10,6 +10,12 @@ void go_shop();
 void walk();
 void dog();
 void cat();
+void puppy();
+void d_adult();
+void d_senior();
+void kitten();
+void c_adult();
+void c_senior();
 
 // main() goes here
 int main() {
@@ -86,13 +92,13 @@ void dog() {
 }
 
 void puppy() {
-    int choice;
+
     cout << "\"So, a puppy?\"" << " She pauses," << " \"Anyone sticks out to you?" << "You look around, your eyes ultimately laying on a small golden boy. He lets out a yip of excitement noticing you, stomping gallantly your way. You wonder if this is the puppy of your dreams as you tossed him up into the air. Maybe... maybe it was. Maybe you two were a match." << endl;
     cout << "\" This one... \"" << " you began,"  << " \"This one is the one.\"" << " The puppy yaps as if he knew what those words meant, and the store employee smiles. Once you paid, you leave the shop, the puppy's tail wagging wildly in your arms. This is where your and your new friend's journey begins." << endl;
 }
 
 void d_adult() {
-    int choice;
+
     cout << "\"An adult, huh?\"" << " She pauses," << " \"Anyone sticks out to you?" << "You look around, a stout brown figure stood out to you. It seems like a nervous girl, swaying her tail gently with flattened ears. She appears sweet but you figured given she's an adult and more anxious then the lively puppies then she'd have a harder time getting adopted." << endl;
     cout << "You shimmy through the puppies, keeping your body low to show her you mean no harm. She steps foward and bows her head for a pat. Her fur was smooth and soft, much like a mink blanket, you just couldn't stop petting her." << endl;
     cout << "\" This one... \"" << " you began,"  << " \"This one is the one.\"" << " The dog eyes you, and the store employee smiles. Once you paid, you leave the shop, the puppy's tail wagging wildly in your arms. This is where your and your new friend's journey begins." << endl;
@@ -108,7 +114,7 @@ void cat() {
     cout << "3. Senior" << endl;
     cout << "> " << endl;
     cin >> choice;
-}
+
     if (1 == choice) {
         kitten();
     }
@@ -118,3 +124,4 @@ void cat() {
     else if (3 == choice) {
         c_senior();
     }
+}
