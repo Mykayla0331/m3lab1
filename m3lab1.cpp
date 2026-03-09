@@ -101,7 +101,13 @@ void d_adult() {
 
     cout << "\"An adult, huh?\"" << " She pauses," << " \"Anyone sticks out to you?" << "You look around, a stout brown figure stood out to you. It seems like a nervous girl, swaying her tail gently with flattened ears. She appears sweet but you figured given she's an adult and more anxious then the lively puppies then she'd have a harder time getting adopted." << endl;
     cout << "You shimmy through the puppies, keeping your body low to show her you mean no harm. She steps foward and bows her head for a pat. Her fur was smooth and soft, much like a mink blanket, you just couldn't stop petting her." << endl;
-    cout << "\" This one... \"" << " you began,"  << " \"This one is the one.\"" << " The dog eyes you, and the store employee smiles. Once you paid, you leave the shop, the puppy's tail wagging wildly in your arms. This is where your and your new friend's journey begins." << endl;
+    cout << "\" This one... \"" << " you began,"  << " \"This one is the one.\"" << " The dog eyes you, and the store employee smiles. Once you paid, you leave the shop, the dog's tail wagged meekly behind her. This is where your and your new friend's journey begins." << endl;
+}
+
+void d_senior() {
+
+    cout << "She smiles, seeming thankful for your choice of choosing an elder. Your eyes scans over the sea of dogs until you notice a slender black figure. You make your way over to the dog who seems too old to even be bothered, he still however let you rub his grey muzzle after stiffing your hands." << endl;
+    cout << "\"This one.\" you say standing up. \"I want him.\" The worker's smile deepens as she nods. After you had paid and left the door, your new best friend trods lazily behind you." << endl;
 }
 
 void cat() {
@@ -124,4 +130,22 @@ void cat() {
     else if (3 == choice) {
         c_senior();
     }
+}
+void kitten() {
+
+    cout << "\"So, a kitten?\"" << " She pauses," << " \"Anyone sticks out to you?" << "You look around, your eyes ultimately laying on a small orange tabby. He lets out a mew of excitement noticing you, stomping gallantly your way. You wonder if this is the kitten of your dreams as you tossed him up into the air. Maybe... maybe it was. Maybe you two were a match." << endl;
+    cout << "\" This one... \"" << " you began,"  << " \"This one is the one.\"" << " The kitten mews as if he knew what those words meant, and the store employee smiles. Once you paid, you leave the shop, the kitten runs frantically in the \"just adopted\" box. This is where your and your new friend's journey begins." << endl;
+}
+
+void c_adult() {
+
+    cout << "\"An adult, huh?\"" << " She pauses," << " \"Anyone sticks out to you?" << "You look around, a fat grey figure stood out to you. It seems like a nervous girl, swaying her tail gently with flattened ears. She appears sweet but you figured given she's an adult and more anxious then the lively puppies then she'd have a harder time getting adopted." << endl;
+    cout << "You shimmy through the cats, keeping your body low to show her you mean no harm. She paces back uncertainly, but ultimately caves in by stepping foward and letting you pet her. Her fur was smooth and soft, much like a mink blanket, you just couldn't stop petting her." << endl;
+    cout << "\" This one... \"" << " you began,"  << " \"This one is the one.\"" << " The cat eyes you, and the store employee smiles. Once you paid, you leave the shop, the cat sits calmly in its temporary box kennel. This is where your and your new friend's journey begins." << endl;
+}
+
+void c_senior() {
+
+    cout << "She smiles, seeming thankful for your choice of choosing an elder. Your eyes scans over the sea of cats until you notice a scrawny white figure. You make your way over to the cat who seems too old to even be bothered, he still however let you rub his head after stiffing your hands." << endl;
+    cout << "\"This one.\" you say standing up. \"I want him.\" The worker's smile deepens as she nods. After you had paid and left the door, your new best friend hardly makes any noise in the temporary box kennel" << endl;
 }
